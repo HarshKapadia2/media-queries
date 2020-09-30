@@ -1,0 +1,59 @@
+*
+{
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+
+body
+{
+	font-family: 'Montserrat', sans-serif;
+	color: white;
+	background-color: black;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	width: 90%;
+	margin: auto;
+}
+
+h1
+{
+	font-family: 'Bangers', cursive;
+	padding-top: 2em;
+	letter-spacing: 3px;
+}
+
+#content
+{
+	display: flex;
+}
+
+#media-queries, #typography
+{
+	padding-top: 5em;
+	flex: 0.5;
+}
+
+#typography
+{
+	padding-left: 1em;
+}
+
+.answer
+{
+	padding-top: 1em;
+}
+
+@media screen and (max-width: 1024px)
+{
+	#content
+	{
+		flex-direction: column;
+	}
+
+	#typography
+	{
+		padding-left: 0;
+	}
+}
