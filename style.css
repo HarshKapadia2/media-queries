@@ -55,5 +55,22 @@ h1
 	#typography
 	{
 		padding-left: 0;
+		padding-bottom: 5em;
+	}
+}
+
+@media screen and (max-width: 768px)
+{
+	#media-queries, #typography
+	{
+		color: lightcoral;
+	}
+}
+
+@media screen and (max-width: 360px)
+{
+	#media-queries, #typography
+	{
+		color: lightblue;
 	}
 }
